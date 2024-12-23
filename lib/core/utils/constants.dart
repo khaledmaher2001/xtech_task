@@ -3,20 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 
 class AppConstants {
-  static File? file;
-  static List model = [];
-  static List newsModel = [];
-  static List foundedItems = [];
-  static List foundedNews = [];
-  static String? finalSelectedFloor;
-  static String? finalSelectedRoom;
-  static String? finalSelectedWing;
-  static int? finalSelectedWingId;
-  static String? finalSelectedBed;
-  static String? finalSelectedBedForSuccess;
-  static int? selectedEventId;
-  static bool skip = false;
-  static bool isBooked = false;
+
   static sp10(context) {
     var height = MediaQuery.of(context).size.height * .012;
     return height;
