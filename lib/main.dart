@@ -20,23 +20,23 @@ Future main() async {
         saveLocale: true,
         startLocale: const Locale("en"),
         path: "lib/core/language",
-        child: const EduAiTeacher()),
+        child: const XTechTask()),
   );
 }
 
-class EduAiTeacher extends StatefulWidget {
-  const EduAiTeacher({super.key});
+class XTechTask extends StatefulWidget {
+  const XTechTask({super.key});
 
   @override
-  State<EduAiTeacher> createState() => _EduAiTeacherState();
+  State<XTechTask> createState() => _XTechTaskState();
 }
 
-class _EduAiTeacherState extends State<EduAiTeacher> {
+class _XTechTaskState extends State<XTechTask> {
   @override
   Widget build(BuildContext context) {
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
-        statusBarColor:  Color(0xffF9F9F9),
+        statusBarColor: Color(0xffF9F9F9),
         statusBarIconBrightness: Brightness.dark,
         systemNavigationBarColor: Colors.white,
       ),
